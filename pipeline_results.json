@@ -1,0 +1,266 @@
+[
+  {
+    "name": "WASP-18b (transit)",
+    "truth_class": "transit",
+    "predicted_class": "transit",
+    "confidence": 0.467,
+    "probabilities": {
+      "transit": 0.467,
+      "eclipse": 0.0,
+      "blend": 0.0,
+      "starspot": 0.133,
+      "noise": 0.4
+    },
+    "features": {
+      "depth": 0.001899,
+      "snr": 3.17,
+      "duration_hrs": 1.06,
+      "period_days": 4.4062,
+      "duty_cycle": 0.01,
+      "rms": 0.001507,
+      "skewness": -0.076,
+      "kurtosis": 12.652
+    },
+    "bls": {
+      "period": 4.406173483206496,
+      "t0": 0.13952882696820573,
+      "duration": 0.044061734832064964,
+      "depth": 0.0018987146394836933,
+      "dur_frac": 0.01,
+      "power": 3.4594559778587945e-05,
+      "snr": 3.172810283213763,
+      "noise": 0.0005984330829766699
+    },
+    "fit_params": {
+      "t0_offset_hrs": -0.4682,
+      "depth": 0.005785,
+      "depth_ppm": 5784.9,
+      "duration_hrs": 3.172,
+      "duration_err_hrs": 0.1055,
+      "period_days": 4.406173,
+      "t0_bjd": 0.139529,
+      "ingress_egress_hrs": 0.529,
+      "status": "converged"
+    }
+  },
+  {
+    "name": "TIC-Eclipse-Binary",
+    "truth_class": "eclipse",
+    "predicted_class": "eclipse",
+    "confidence": 0.353,
+    "probabilities": {
+      "transit": 0.059,
+      "eclipse": 0.353,
+      "blend": 0.0,
+      "starspot": 0.235,
+      "noise": 0.353
+    },
+    "features": {
+      "depth": 0.089243,
+      "snr": 0.43,
+      "duration_hrs": 0.15,
+      "period_days": 0.6443,
+      "duty_cycle": 0.01,
+      "rms": 0.196224,
+      "skewness": 0.41,
+      "kurtosis": 1.794
+    },
+    "bls": {
+      "period": 0.6442739741514327,
+      "t0": 0.4048188137584836,
+      "duration": 0.006442739741514328,
+      "depth": 0.0892433978589882,
+      "dur_frac": 0.01,
+      "power": 0.0728057330866968,
+      "snr": 0.42566160329580544,
+      "noise": 0.20965808794590807
+    },
+    "fit_params": {
+      "t0_offset_hrs": -0.0889,
+      "depth": 0.285768,
+      "depth_ppm": 285767.8,
+      "duration_hrs": 0.464,
+      "duration_err_hrs": 0.0198,
+      "period_days": 0.644274,
+      "t0_bjd": 0.404819,
+      "ingress_egress_hrs": 0.077,
+      "status": "converged"
+    }
+  },
+  {
+    "name": "TIC-Blend-EB",
+    "truth_class": "blend",
+    "predicted_class": "transit",
+    "confidence": 0.607,
+    "probabilities": {
+      "transit": 0.607,
+      "eclipse": 0.0,
+      "blend": 0.393,
+      "starspot": 0.0,
+      "noise": 0.0
+    },
+    "features": {
+      "depth": 0.010026,
+      "snr": 11.2,
+      "duration_hrs": 1.36,
+      "period_days": 5.6872,
+      "duty_cycle": 0.01,
+      "rms": 0.008159,
+      "skewness": -1.143,
+      "kurtosis": 9.664
+    },
+    "bls": {
+      "period": 5.687234115408095,
+      "t0": 0.3696702175015262,
+      "duration": 0.05687234115408095,
+      "depth": 0.010025517996179048,
+      "dur_frac": 0.01,
+      "power": 0.0010406443067576033,
+      "snr": 11.197231378111407,
+      "noise": 0.0008953568661425671
+    },
+    "fit_params": {
+      "t0_offset_hrs": 0.1573,
+      "depth": 0.030301,
+      "depth_ppm": 30300.9,
+      "duration_hrs": 2.579,
+      "duration_err_hrs": 0.0496,
+      "period_days": 5.687234,
+      "t0_bjd": 0.36967,
+      "ingress_egress_hrs": 0.2,
+      "status": "converged"
+    }
+  },
+  {
+    "name": "Starspot-Variable",
+    "truth_class": "starspot",
+    "predicted_class": "noise",
+    "confidence": 0.857,
+    "probabilities": {
+      "transit": 0.143,
+      "eclipse": 0.0,
+      "blend": 0.0,
+      "starspot": 0.0,
+      "noise": 0.857
+    },
+    "features": {
+      "depth": 4.8e-05,
+      "snr": 0.11,
+      "duration_hrs": 0.2,
+      "period_days": 0.8162,
+      "duty_cycle": 0.01,
+      "rms": 0.00045,
+      "skewness": -0.004,
+      "kurtosis": 2.919
+    },
+    "bls": {
+      "period": 0.8161723371047657,
+      "t0": 0.5862837954869233,
+      "duration": 0.008161723371047657,
+      "depth": 4.82274863539874e-05,
+      "dur_frac": 0.01,
+      "power": 2.067458168910259e-08,
+      "snr": 0.10642662700784462,
+      "noise": 0.00045315244605499515
+    },
+    "fit_params": {
+      "t0_offset_hrs": 0.0697,
+      "depth": 0.000197,
+      "depth_ppm": 197.2,
+      "duration_hrs": 0.25,
+      "duration_err_hrs": 0.0728,
+      "period_days": 0.816172,
+      "t0_bjd": 0.586284,
+      "ingress_egress_hrs": 0.113,
+      "status": "converged"
+    }
+  },
+  {
+    "name": "TOI-270 (transit)",
+    "truth_class": "transit",
+    "predicted_class": "transit",
+    "confidence": 0.636,
+    "probabilities": {
+      "transit": 0.636,
+      "eclipse": 0.0,
+      "blend": 0.182,
+      "starspot": 0.182,
+      "noise": 0.0
+    },
+    "features": {
+      "depth": 0.002596,
+      "snr": 6.02,
+      "duration_hrs": 1.97,
+      "period_days": 8.1992,
+      "duty_cycle": 0.01,
+      "rms": 0.001302,
+      "skewness": -3.667,
+      "kurtosis": 40.575
+    },
+    "bls": {
+      "period": 8.19919237516327,
+      "t0": 5.534454853235207,
+      "duration": 0.0819919237516327,
+      "depth": 0.0025955589807254245,
+      "dur_frac": 0.01,
+      "power": 6.056428803997697e-05,
+      "snr": 6.017241293461947,
+      "noise": 0.0004313536476500681
+    },
+    "fit_params": {
+      "t0_offset_hrs": 0.3916,
+      "depth": 0.010122,
+      "depth_ppm": 10122.2,
+      "duration_hrs": 2.187,
+      "duration_err_hrs": 0.0791,
+      "period_days": 8.199192,
+      "t0_bjd": 5.534455,
+      "ingress_egress_hrs": 0.541,
+      "status": "converged"
+    }
+  },
+  {
+    "name": "Noisy-Baseline",
+    "truth_class": "noise",
+    "predicted_class": "noise",
+    "confidence": 0.857,
+    "probabilities": {
+      "transit": 0.143,
+      "eclipse": 0.0,
+      "blend": 0.0,
+      "starspot": 0.0,
+      "noise": 0.857
+    },
+    "features": {
+      "depth": 3.8e-05,
+      "snr": 0.11,
+      "duration_hrs": 0.12,
+      "period_days": 0.5009,
+      "duty_cycle": 0.01,
+      "rms": 0.000358,
+      "skewness": 0.027,
+      "kurtosis": 2.997
+    },
+    "bls": {
+      "period": 0.5008514488509372,
+      "t0": 0.1828107788305921,
+      "duration": 0.005008514488509372,
+      "depth": 3.82825886529418e-05,
+      "dur_frac": 0.01,
+      "power": 1.3323241763366803e-08,
+      "snr": 0.107617793674068,
+      "noise": 0.0003557273137273629
+    },
+    "fit_params": {
+      "t0_offset_hrs": 0.0027,
+      "depth": 0.000151,
+      "depth_ppm": 151.3,
+      "duration_hrs": 0.23,
+      "duration_err_hrs": 0.057,
+      "period_days": 0.500851,
+      "t0_bjd": 0.182811,
+      "ingress_egress_hrs": 0.114,
+      "status": "converged"
+    }
+  }
+]
